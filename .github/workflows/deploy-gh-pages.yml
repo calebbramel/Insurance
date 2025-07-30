@@ -4,9 +4,9 @@ on:
     branches:
       - main  # Set a branch to deploy
 jobs:
-  environment: prd
   deploy:
     runs-on: ubuntu-latest
+    environment: prd
     defaults:
       run:
         working-directory: .    
