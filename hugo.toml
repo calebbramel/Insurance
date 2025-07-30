@@ -172,7 +172,7 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Bramel Insurance is the operating name of a licensed independent insurance agent based in Kentucky. Insurance products offered include life and health policies for Kentucky residents only. Bramel Insurance does not provide financial, tax, or legal advice. Coverage availability and eligibility are subject to underwriting review and carrier guidelines.</p> <p>All trademarks, service marks, and logos referenced herein are property of their respective owners and used with permission where applicable.</p>"
+    about_us = "<p>Bramel Insurance is the operating name of a licensed independent insurance agent based in Kentucky. Insurance products offered include life and health policies for Kentucky residents only. Bramel Insurance does not provide financial, tax, or legal advice. Coverage availability and eligibility are subject to underwriting review and carrier guidelines.</p>" # <p>All trademarks, service marks, and logos referenced herein are property of their respective owners and used with permission where applicable.</p>"
     
     copyright = "Copyright (c) 2021 - 2025, Caleb Bramel; all rights reserved."
 
