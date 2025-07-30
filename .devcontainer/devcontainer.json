@@ -1,0 +1,18 @@
+{
+  "name": "Node.js Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/npm:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "cd themes/hugo-universal-theme && npm install && npm update",
+  "remoteUser": "node"
+}
