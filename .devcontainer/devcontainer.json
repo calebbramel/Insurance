@@ -4,15 +4,7 @@
   "features": {
     "ghcr.io/devcontainers/features/npm:1": {}
   },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
-      ]
-    }
-  },
-  "forwardPorts": [3000],
+  "forwardPorts": [1313],
   "postCreateCommand": "cd themes/hugo-universal-theme && npm install && npm update",
   "remoteUser": "node"
 }
