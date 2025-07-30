@@ -8,6 +8,10 @@ defaultContentLanguage = "en"
 # number of words of summarized post content (default 70)
 summaryLength = 30
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
 # not pluralize title pages by default
 pluralizelisttitles = false
 
