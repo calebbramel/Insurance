@@ -16,16 +16,16 @@ jobs:
           submodules: recursive  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Install Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' 
-    
-      - name: Install Node dependencies
+          node-version: '18'
+          cache: 'npm'  # Enables automatic caching based on lockfile
+
+      - name: Install Theme Dependencies
+        working-directory: themes/hugo-universal-theme
         run: |
-          cd themes/hugo-universal-theme
-          npm install
-          npm update
+          npm ci
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -35,11 +35,9 @@ jobs:
 
       - name: Build
         run: | 
-          hugo --minify
+          hugo --minify --cleanDestinationDir
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PAT_TOKEN }}
-          publish_dir: ./public  # if not specified it defaults to ./public. source directory of the built files to make the deploy (must match the build to directory in config.toml), eg ./docs, ./public, ./exampleSite/public
-          
