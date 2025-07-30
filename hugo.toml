@@ -121,7 +121,7 @@ pluralizelisttitles = false
     author = "Caleb Bramel"
     defaultKeywords = ["Bramel", "life insurance", "health insurance", "quotes"]
     mainSections = ["blog"]
-    defaultDescription = "Article from Bramel Life and Health Insurance"
+    defaultDescription = "Simple, smart insurance—built for clarity, trust, and peace of mind."
 
     # Social media
     # facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
