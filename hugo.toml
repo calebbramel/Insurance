@@ -37,7 +37,7 @@ pluralizelisttitles = false
     weight     = 1
 
 [[menu.main]]
-    name       = "Quotes"
+    name       = "Quote"
     identifier = "menu.quotes"
     url        = "/quote"
     weight     = 2
