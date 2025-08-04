@@ -39,56 +39,56 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Quotes"
     identifier = "menu.quotes"
-    url        = ""
-    weight     = 2
-
-[[menu.main]]
-    name       = "Instant Health Quotes"
-    identifier = "section.health"
-    url        = ""
-    weight     = 1
-    parent     = "menu.quotes"
-    post       = 1
-
-[[menu.main]]
-    name       = "Instant Life Quotes"
-    identifier = "section.life"
-    url        = ""
-    weight     = 2
-    parent     = "menu.quotes"
-    post       = 2
-
-[[menu.main]]
-    name       = "Explore More Options"
-    identifier = "section.quote"
-    url        = "/quotes"
-    weight     = 3
-    parent     = "menu.quotes"
-    post       = 3
-
-[[menu.main]]
-    name       = "LifeX"
-    url        = "https://www.1enrollment.com/index.cfm?id=885283"
-    weight     = 1
-    parent     = "section.health"
-
-[[menu.main]]
-    name       = "Ethos"
-    url        = "https://agents.ethoslife.com/invite/21a70"
-    weight     = 1
-    parent     = "section.life"
-
-[[menu.main]]
-    name       = "ManhattanLife"
-    url        = "https://direct.manhattanlife.com/#/link/6903/bramel"
-    weight     = 1
-    parent     = "section.life"
-
-[[menu.main]]
-    name       = "Custom Quote"
     url        = "/quote"
-    weight     = 1
-    parent     = "section.quote"
+    weight     = 2
+
+# [[menu.main]]
+#    name       = "Instant Health Quotes"
+#    identifier = "section.health"
+#    url        = ""
+#    weight     = 1
+#    parent     = "menu.quotes"
+#    post       = 1
+
+# [[menu.main]]
+#    name       = "Instant Life Quotes"
+#    identifier = "section.life"
+#    url        = ""
+#    weight     = 2
+#    parent     = "menu.quotes"
+#    post       = 2
+
+# [[menu.main]]
+#    name       = "Explore More Options"
+#    identifier = "section.quote"
+#    url        = "/quotes"
+#    weight     = 3
+#    parent     = "menu.quotes"
+#    post       = 3
+
+#[[menu.main]]
+#    name       = "LifeX"
+#    url        = "https://www.1enrollment.com/index.cfm?id=885283"
+#    weight     = 1
+#    parent     = "section.health"
+
+#[[menu.main]]
+#    name       = "Ethos"
+#    url        = "https://agents.ethoslife.com/invite/21a70"
+#    weight     = 1
+#    parent     = "section.life"
+
+# [[menu.main]]
+#    name       = "ManhattanLife"
+#    url        = "https://direct.manhattanlife.com/#/link/6903/bramel"
+#    weight     = 1
+#    parent     = "section.life"
+
+# [[menu.main]]
+#    name       = "Custom Quote"
+#    url        = "/quote"
+#    weight     = 1
+#    parent     = "section.quote"
 
 [[menu.main]]
     name       = "Blog"
