@@ -113,7 +113,7 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:insurance@bramel.co"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
