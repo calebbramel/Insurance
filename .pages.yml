@@ -4,13 +4,11 @@ settings:
     merge: true
 media: static/img
 content:
-    create: true
   - name: posts
     label: Posts
     type: collection
     path: content/blog
-    view:
-      fields: [ title, published, date ]
+    create: true
     fields:
       - name: published
         label: Published
