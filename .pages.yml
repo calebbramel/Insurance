@@ -1,3 +1,7 @@
+settings:
+  hide: true
+  content:
+    merge: true
 media: media
 content:
   - name: posts
@@ -21,8 +25,8 @@ content:
         label: Body
         type: rich-text
   - name: config
-    label: Hugo config
-    path: hugo.toml
+    label: Hugo
+    path: hugo.yaml
     type: file
     fields:
       - name: title
