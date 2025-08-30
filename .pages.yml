@@ -25,7 +25,7 @@ content:
         label: Body
         type: rich-text
   - name: config
-    label: Hugo
+    label: Settings
     path: hugo.yaml
     type: file
     fields:
