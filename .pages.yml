@@ -2,7 +2,7 @@ settings:
   hide: true
   content:
     merge: true
-media: media
+media: static/img
 content:
   - name: posts
     label: Posts
